@@ -1,0 +1,12 @@
+---
+# Compatible with GRPC status codes
+Ok: 0
+Unknown: 2
+PermissionDenied: 7
+Unauthenticated: 16
+# Custom status codes
+ApplianceNotFound: 101
+FailedApplianceTransfer: 102
+ResourceNotFound: 103
+FailedResourceRetrieval: 104
+InvalidResourceState: 105
